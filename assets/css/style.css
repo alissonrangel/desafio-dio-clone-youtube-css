@@ -1,0 +1,90 @@
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 56px;
+  width: 1440px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  margin: auto;
+}
+header .left{
+  height: 24px;
+  width: 146px;
+  display: flex; 
+  align-items: center; 
+}
+header .left img{
+  width: 90px;
+  height: 20px;  
+}
+header .left .menu{
+  height: 24px;
+  width: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* position: absolute;
+  top: 16px;
+  left: 24px; */
+  margin-right: 32px;
+}
+header .left .menu .bar{
+  width: 18px;
+  height: 2px;
+  background-color: #000;
+}
+
+header .center{
+  display: flex;
+  justify-content: center;
+}
+header .center .rectangle1{
+  width: 348px;
+  height: 40px;
+  border: 1px solid #ccc;
+}
+header .center .rectangle2{
+  width: 57px;
+  height: 40px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .center .rectangle2 img{
+  width: 24px;
+  height: 24px;
+}
+header .right{
+  width: 130px;
+  height: 34px;
+  display: flex;
+  gap: 24px;
+  align-items: center;  
+}
+
+header .right img.video{
+  width: 24px;
+  height: 24px;
+}
+
+header .right img.bell{
+  width: 24px;
+  height: 24px;
+}
+
+header .right img.avatar{
+  width: 34px;
+  height: 34px;
+}
